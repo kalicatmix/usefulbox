@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+    <ScrollView 
+        android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:scrollbarStyle="insideOverlay"
+       android:scrollbars="vertical"
+       android:background="@drawable/background"
+        >
+        <LinearLayout 
+             android:layout_width="match_parent"
+     android:layout_height="match_parent"
+    android:orientation="vertical" 
+            >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:src="@drawable/qq" />
+    
+    <TextView 
+        android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/qq"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:src="@drawable/wechat" />
+    
+    <TextView 
+        android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/weixin"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:src="@drawable/google" />
+    
+    <TextView 
+        android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/gmail"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cat"
+        android:alpha="0.8"
+         />
+    
+    <TextView 
+        android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/creator"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

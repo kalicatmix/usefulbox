@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.usefulbox"
+    android:versionCode="1"
+    android:versionName="1.0" >
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+        >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.usefulbox.ContactActivity"
+             android:launchMode="singleInstance"
+            >
+        </activity>
+        <activity 
+            android:name="com.example.usefulbox.AboutActivity"
+            android:launchMode="singleInstance"
+            ></activity>
+        <activity 
+            android:name="com.example.usefulbox.NewFunctionActivity"
+            android:launchMode="singleInstance"
+            ></activity>
+        <activity 
+            android:name="com.example.usefulbox.ToolDevelopActivity"
+            android:launchMode="singleInstance"
+            ></activity>
+        <activity 
+            android:name="com.example.usefulbox.ToolLifeActivity"
+            android:launchMode="singleInstance"
+            ></activity>
+        <activity 
+            android:name="com.example.usefulbox.ToolSourceActivity"
+            android:launchMode="singleInstance"
+            ></activity>
+        <activity 
+            android:name="com.example.usefulbox.ToolStudyActivity"
+            android:launchMode="singleInstance"
+            ></activity>
+        <activity 
+            android:name="com.example.usefulbox.ToolStudyFunctionActivity"
+            ></activity>
+        <activity android:name="com.example.usefulbox.ToolLifeFunctionActivity"/>
+   <activity 
+       android:name="com.example.usefulbox.ToolDevelopFunctionActivity"
+       ></activity>
+        </application>
+
+</manifest>

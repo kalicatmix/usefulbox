@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">工具百宝箱</string>
+    <string name="browser_back">返回</string>
+    <string name="browser_forward">前进</string>
+    <string name="browser_refresh">刷新</string>
+    <string name="browser_source">换源</string>
+    <string name="browser_menu">更多</string>
+    <string name="m_m0">新浪新闻</string>
+    <string name="m_m1">今日头条</string>
+    <string name="m_m2">腾讯新闻</string>
+    
+    <string name="m_input">查看网页</string>
+    <string name="open">打开</string>
+    <string name="about">关于</string>
+    
+    <string name="qq">qq:2868607141</string>
+    <string name="gmail">gmail:2868607141kalicat@gmail.com</string>
+    <string name="weixin">暂无</string>
+    <string name="creator">Created by KaliCat</string>
+       
+    <string name="soft_intro">
+         软件说明    
+        </string>
+        <string name="intro_content">
+            软件通过结合常用的api接口，可以查询ip,天气，单词等应用，并能通过Android嵌入的webkit内核快速的查看新闻和浏览部分网页。
+        </string>
+        <string name="developer">
+            独立开发不易，请遵守软件使用条约。
+        </string>
+        <string name="intro_intro">
+          copyright 2018
+        </string>
+        <string name="new_function">新功能更新</string>
+        <string name="description">api功能接口:</string>
+        <string name="word_s">网易有道词典接口</string>
+        <string name="dianqing">点晴数据接口</string>
+        <string name="ganhuo">干货集中营接口</string>
+        <string name="android">android开放api</string>
+        <string name="github">github接口</string>
+        <string name="more">更多</string>
+        <string name="thank">感谢 2018</string>
+        
+        <string name="word_hint">请输入</string>
+        <string name="word_search">搜索</string>
+        <string name="video_play">正在播放</string>
+        
+        <string name="search_result_btn">确定</string>
+        
+        <string name="year">年</string>
+        <string name="month">月</string>
+        
+        <string name="qrcode">选择二维码模板</string>
+        <string name="qr1">色彩</string>
+        <string name="qr2">形状</string>
+        <string name="qr3">深蓝</string>
+        <string name="qr4">环保</string>
+        <string name="qr5">传统</string>
+        <string name="qr6">专属</string>
+        <string name="qr_input">输入二维码内容</string>
+        <string name="mini_video_title">内容</string>
+</resources>
